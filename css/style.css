@@ -1,0 +1,261 @@
+  #head1
+  {
+    color: blue;
+  }
+  #head2
+  {
+    color: blue;
+  }
+
+
+nav{
+	position: relative;
+	z-index: 1;
+        background: #0088cc;
+}
+nav .nav-logo{
+	display: inline-block;
+}
+nav .nav-logo img{
+	height: 50px;
+	width: 100px;
+
+}
+nav .nav-links{
+	float: right;
+}
+nav .nav-links ul{
+	
+}
+
+nav .nav-links ul li{
+	display: inline-block;
+}
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 12px;
+    display: inline-block;
+}
+
+nav .nav-links ul li a:hover {
+/*background-color: white;*/
+color: black;
+}
+
+.hero-image{
+	    top: 0;
+    /*position: absolute;*/
+    height: 100vh;
+    height: 100hv;
+    width: 100%;
+    background-image: url(../images/heroimage.jpg);
+    background-size: cover;
+}
+.hero-image .hero-text{
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.hero-image .hero-text h1{
+	color: black;
+}
+
+.hero-image .hero-text h2{
+	color: black;
+}
+/***********Facilities***************/
+.service
+{
+	padding: 50px 0px;
+	text-align: center;
+	background-color:#fafafa ;
+}
+
+.service label
+{
+    background: #e02217;
+    padding: 0px 12px;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: white;
+    font-size: 38px;
+    margin-right: 6px;
+    font-family: ClickerScript-Regular;
+}
+.service p
+{
+    color: #666;
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;
+    font-family: Raleway-Regular;
+}
+
+.service .service-block
+{
+	margin-top: 35px;
+}
+
+.service .service-block .service-box
+{
+	display: inline-block;
+    height: 242px;
+    width: 262px;
+    margin: 0px 13px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    padding: 90px 5px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(238, 238, 238, 0.65);
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+    -webkit-transition: 0.36s;
+    transition: 0.36s;
+    background-color: #fff;
+}
+.service .service-block .service-box:hover
+{
+    border: 1px solid #fff;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);	border: 1px solid #fff;
+    background:blue;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.service .service-block .service-box:hover h2
+{
+    color: white;
+    
+    color: #fff;
+	top: 120px;
+}
+.service .service-block .service-box:hover i {
+    color: white;
+    /* left: 0; */
+    top: 70px;
+    color: #fff;
+    /* right: 0; */
+    /* top: 150px; */
+    /* position: absolute; */
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+    /* transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s; */
+}
+.service .service-block .service-box:hover  p
+{
+  opacity: 1;
+  color: white;
+ }
+
+.service .service-block .service-box:before
+{
+    position: absolute;
+    content: "";
+    height: 25%;
+    width: 25%;
+    left: 10px;
+    top: 10px;
+    border-top-left-radius: 5px;
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+}
+.service .service-block .service-box:after
+{
+	position: absolute;
+    content: "";
+    height: 25%;
+    width: 25%;
+    bottom: 10px;
+    right: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+}
+.service .service-block .service-box h2
+{
+  text-transform: capitalize;
+    color: #666;
+    top: 100px;
+    
+    -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+    transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+    left: 0;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+    transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+
+}
+
+.service .service-block .service-box p
+{
+	position: absolute;
+    opacity: 0;
+  color:white;
+    top: 170px;
+    right: 0px;
+    left: 0px;
+    transform: scale(0.6);
+    margin: 5px auto;
+    padding: 0px 5px;
+      font-size:25px;
+    transition: all 0.5s ease 0s;
+}
+   
+.service .service-block .service-box span i {
+    font-size: 40px;
+    color: blue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    position: absolute;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+}
+/**************Gallery***********************/
+.gallery-block{
+	padding:100px 0px;
+}
+
+.gallery-block h1{
+	
+}
+.gallery-block .gallery-box{
+	padding: 20px;
+}
+.gallery-block .gallery-box .image-box{
+
+}
+.gallery-block .gallery-box .image-box img{
+	width: 100%;
+	height: 300px;
+}
+
+.gallery-block .gallery-box .gallery-text h3{
+
+}
+.gallery-block .gallery-box .gallery-text p{
+
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:blue;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin-top:22px;
+}
